@@ -9,7 +9,7 @@ module.exports = function (app) {
 
   app.post("/api/notes/", function (req, res) {
     console.log("post /api/notes");
-    noteData.push(req.body);
+    noteData.push(req.body);    
     res.json(true);
   });
 
